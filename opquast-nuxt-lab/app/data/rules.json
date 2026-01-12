@@ -71,6 +71,201 @@
       "https://developer.mozilla.org/fr/"
     ]
   },
+    {
+    "id": 38,
+    "title": "La modification de la quantité de chaque article, l'ajout et la suppression d'un ou plusieurs articles restent possibles avant la validation définitive de la commande.",
+    "authors": ["Uzodimma Victor"],
+    "path": "/rules/38",
+    "description": "Un panier flexible et modifiable permet aux utilisateurs de corriger leurs erreurs et d'ajuster leur commande selon leurs besoins. Cela réduit la frustration et les abandons de panier.",
+    "tags": ["Conception", "Développement", "E-Commerce"],
+    "objectives": [
+      "Permettre à l'utilisateur de modifier son panier avant de finaliser sa commande.",
+      "Éviter les erreurs de commande et améliorer l'expérience utilisateur."
+    ],
+    "implementationIntro": "Mettre en place des contrôles et des actions simples permettant de modifier le contenu du panier :",
+    "implementation": [
+      "Fournir des boutons ou champs pour modifier la quantité de chaque article.",
+      "Proposer des boutons de suppression pour retirer des articles du panier.",
+      "Permettre l'ajout d'articles supplémentaires depuis la page du panier.",
+      "Afficher les modifications en temps réel avec mise à jour du total."
+    ],
+    "control": [
+      "Vérifier que chaque article du panier peut avoir sa quantité modifiée.",
+      "Vérifier qu'il est possible de supprimer un ou plusieurs articles.",
+      "Vérifier que les modifications sont prises en compte avant la validation de la commande.",
+      "S'assurer que l'utilisateur ne peut valider que après avoir confirmé les modifications."
+    ],
+    "screenshotsSources": [
+     
+    ]
+  },
+  {
+    "id": 39,
+    "title": "La nature et les caractéristiques quantifiables des produits et services sont indiquées.",
+    "authors": ["Uzodimma Victor"],
+    "path": "/rules/39",
+    "description": "Les utilisateurs doivent disposer d'informations claires et complètes sur les produits et services pour prendre une décision d'achat éclairée. Les caractéristiques quantifiables (dimensions, poids, couleurs disponibles, etc.) sont essentielles.",
+    "tags": ["Conception", "E-Commerce", "Editorial", "SEO"],
+    "objectives": [
+      "Fournir aux utilisateurs les informations essentielles sur les produits/services.",
+      "Permettre une prise de décision éclairée avant l'achat."
+    ],
+    "implementationIntro": "Pour chaque produit ou service, afficher les informations détaillées et quantifiables :",
+    "implementation": [
+      "Indiquer la nature exacte du produit (marque, modèle, référence).",
+      "Afficher les dimensions, le poids ou les mesures applicables.",
+      "Lister les couleurs, variantes ou options disponibles.",
+      "Préciser les matériaux et la composition.",
+      "Fournir des spécifications techniques si pertinent."
+    ],
+    "control": [
+      "Vérifier que chaque produit dispose d'une description complète et précise.",
+      "S'assurer que les caractéristiques quantifiables sont clairement indiquées.",
+      "Vérifier que les variantes disponibles sont listées."
+    ],
+    "screenshotsSources": [
+   
+    ]
+  },
+  {
+    "id": 40,
+    "title": "La période et les conditions de validité des offres spéciales et promotions sont indiquées.",
+    "authors": ["Uzodimma Victor"],
+    "path": "/rules/40",
+    "description": "Les clients doivent connaître précisément la durée et les conditions des promotions pour éviter toute confusion ou déception après l'achat. La transparence sur les offres est essentielle pour maintenir la confiance.",
+    "tags": ["Conception", "E-Commerce", "Editorial"],
+    "objectives": [
+      "Informer l'utilisateur sur la durée de validité des promotions.",
+      "Éviter les malentendus et les réclamations."
+    ],
+    "implementationIntro": "Pour chaque offre promotionnelle, indiquer clairement les informations de validité :",
+    "implementation": [
+      "Afficher la date de début et de fin de la promotion.",
+      "Préciser les conditions d'application (minimum d'achat, catégories de produits, etc.).",
+      "Indiquer si la promotion est cumulable ou non avec d'autres offres.",
+      "Spécifier si la promotion s'applique au moment de la commande ou au moment du paiement."
+    ],
+    "control": [
+      "Vérifier que chaque promotion affiche sa date de début et de fin.",
+      "S'assurer que les conditions d'application sont clairement énoncées.",
+      "Vérifier que les informations restent visibles jusqu'à la validation de la commande."
+    ],
+    "screenshotsSources": [
+      
+    ]
+  },
+  {
+    "id": 41,
+    "title": "Le sous-total détaillé est indiqué avant la validation définitive de la commande.",
+    "authors": ["Uzodimma Victor"],
+    "path": "/rules/41",
+    "description": "Un détail clair du sous-total, des frais de port, des taxes et du total final permet au client de vérifier sa commande avant validation. Cette transparence réduit les abandons et les réclamations.",
+    "tags": ["Conception", "Développement", "E-Commerce"],
+    "objectives": [
+      "Permettre au client de vérifier le détail de sa commande avant validation.",
+      "Améliorer la confiance et réduire les abandons de panier."
+    ],
+    "implementationIntro": "Afficher un récapitulatif détaillé du calcul du coût total :",
+    "implementation": [
+      "Indiquer le sous-total des articles (prix unitaire × quantité).",
+      "Afficher les frais de port ou de livraison.",
+      "Préciser les taxes et les réductions appliquées.",
+      "Calculer et afficher le montant total à payer.",
+      "Mettre à jour ce détail en temps réel lors de modifications."
+    ],
+    "control": [
+      "Vérifier que le sous-total détaillé est visible avant validation.",
+      "S'assurer que chaque ligne du calcul (articles, frais, taxes, réductions) est explicitée.",
+      "Vérifier que le total correspond à la somme des éléments affichés."
+    ],
+    "screenshotsSources": [
+   
+    ]
+  },
+  {
+    "id": 42,
+    "title": "Les conditions de financement sont indiquées.",
+    "authors": ["Uzodimma Victor"],
+    "path": "/rules/42",
+    "description": "Les options de financement disponibles (paiement comptant, paiement en plusieurs fois, crédit, etc.) doivent être clairement présentées pour aider le client dans sa prise de décision.",
+    "tags": ["E-Commerce", "Editorial"],
+    "objectives": [
+      "Informer l'utilisateur sur les options de financement disponibles.",
+      "Faciliter la prise de décision d'achat."
+    ],
+    "implementationIntro": "Présenter les conditions de financement disponibles de manière transparente :",
+    "implementation": [
+      "Lister toutes les méthodes de paiement acceptées.",
+      "Indiquer si un paiement en plusieurs fois est proposé (nombre de mensualités, intérêts).",
+      "Préciser les délais de paiement pour les achats à crédit.",
+      "Afficher les frais associés à chaque option de financement.",
+      "Fournir des liens vers les partenaires financiers si applicable."
+    ],
+    "control": [
+      "Vérifier que les options de financement sont accessibles avant la validation.",
+      "S'assurer que les conditions (taux, durée, frais) sont clairement indiquées.",
+      "Vérifier que l'utilisateur peut sélectionner son option avant le paiement."
+    ],
+    "screenshotsSources": [
+     
+    ]
+  },
+  {
+    "id": 43,
+    "title": "Les conditions de fonctionnement du service après-vente sont indiquées.",
+    "authors": ["Uzodimma Victor"],
+    "path": "/rules/43",
+    "description": "Les clients doivent connaître les modalités du service après-vente (garantie, support, retours, etc.) avant d'acheter. Cela crée de la confiance et réduit les insatisfactions.",
+    "tags": ["E-Commerce", "Editorial"],
+    "objectives": [
+      "Informer l'utilisateur sur le support disponible après l'achat.",
+      "Créer de la confiance et de la transparence."
+    ],
+    "implementationIntro": "Documenter et afficher les conditions du service après-vente :",
+    "implementation": [
+      "Préciser la durée et le type de garantie offerts.",
+      "Indiquer les canaux de support client (téléphone, email, chat, etc.).",
+      "Expliquer les conditions de retour et d'échange.",
+      "Fournir les délais de traitement des demandes SAV.",
+      "Détailler les responsabilités du vendeur et de l'acheteur."
+    ],
+    "control": [
+      "Vérifier que les conditions SAV sont accessibles avant l'achat.",
+      "S'assurer que chaque modalité est clairement explicitée.",
+      "Vérifier la présence de coordonnées ou d'un lien vers le support client."
+    ],
+    "screenshotsSources": [
+      
+    ]
+  },
+  {
+    "id": 44,
+    "title": "Les conditions de débit ou d'encaissement sont indiquées.",
+    "authors": ["Uzodimma Victor"],
+    "path": "/rules/44",
+    "description": "Les clients doivent savoir précisément quand et comment leur compte sera débité. Cette clarté rassure et prévient les malentendus concernant les transactions.",
+    "tags": ["E-Commerce", "Editorial"],
+    "objectives": [
+      "Clarifier quand et comment l'utilisateur sera débité.",
+      "Améliorer la transparence des transactions."
+    ],
+    "implementationIntro": "Préciser les modalités de débit ou d'encaissement :",
+    "implementation": [
+      "Indiquer le moment du prélèvement (avant, pendant ou après livraison).",
+      "Préciser le délai entre la commande et le débit effectif.",
+      "Afficher l'identité du bénéficiaire du paiement.",
+      "Expliquer le système de prélèvement ou de virement utilisé.",
+      "Fournir les conditions en cas d'annulation ou de remboursement."
+    ],
+    "control": [
+      "Vérifier que le moment du débit est clairement indiqué.",
+      "S'assurer que le client connaît les délais avant le prélèvement.",
+      "Vérifier que les conditions de remboursement sont exposées."
+    ],
+    "screenshotsSources": [
+     
+    ]
+  },
   {
     "id": 87,
     "title": "Les processus complexes sont accompagnés de la liste de leurs étapes.",
